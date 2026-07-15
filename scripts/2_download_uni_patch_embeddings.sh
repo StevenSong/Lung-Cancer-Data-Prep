@@ -15,14 +15,14 @@ CPTAC/cptac_luad_part1.tar.gz \
 CPTAC/cptac_luad_part2.tar.gz \
 TCGA/TCGA-LUAD.tar.gz \
 TCGA/TCGA-LUSC.tar.gz \
---local-dir $SCRIPT_DIR/../embeddings/patch-embeddings
+--local-dir $SCRIPT_DIR/../data/WSIs/patch-embeddings
 
 
 echo "========================"
 
 
 echo "Combining downloaded file parts"
-cd "$SCRIPT_DIR/../embeddings/patch-embeddings/CPTAC"
+cd "$SCRIPT_DIR/../data/WSIs/patch-embeddings/CPTAC"
 
 PARTS=(cptac_luad_part1.tar.gz cptac_luad_part2.tar.gz)
 OUT=cptac_luad.tar.gz
