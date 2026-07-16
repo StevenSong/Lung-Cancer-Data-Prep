@@ -1,0 +1,3 @@
+[submodule "multimodal-cancer-modeling"]
+	path = multimodal-cancer-modeling
+	url = git@github.com:StevenSong/multimodal-cancer-modeling.git

@@ -16,6 +16,7 @@ Download and embed TCGA and CPTAC lung adenocarcinoma and squamous cell carcinom
 ## Steps
 1. Histopathology Whole Slide Images:
     1. Download patch-level embeddings from [MahmoodLab/UNI2-h-features](https://huggingface.co/datasets/MahmoodLab/UNI2-h-features)
+    1. Filter only tumor slides
     1. Average patch-level embeddings into slide-level embeddings
 1. Bulk RNA-seq Gene Expression:
     1. Download RNA-seq data from GDC
